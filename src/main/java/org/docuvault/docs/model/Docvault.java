@@ -41,5 +41,61 @@ public class Docvault {
     public void setId(int id) {
         this.id = id;
     }
+    
+    public String getDocId() {
+		return docId;
+	}
+
+	public void setDocId(String docId) {
+		this.docId = docId;
+	}
+
+	public String getDocName() {
+		return docName;
+	}
+
+	public void setDocName(String docName) {
+		this.docName = docName;
+	}
+
+	public String getDocSource() {
+		return docSource;
+	}
+
+	public void setDocSource(String docSource) {
+		this.docSource = docSource;
+	}
+
+	public String getCertificationStatus() {
+		return certificationStatus;
+	}
+
+	public void setCertificationStatus(String certificationStatus) {
+		this.certificationStatus = certificationStatus;
+	}
+
+	public String getCertificationRating() {
+		return certificationRating;
+	}
+
+	public void setCertificationRating(String certificationRating) {
+		this.certificationRating = certificationRating;
+	}
+
+	public String getCertificationHistory() {
+		return certificationHistory;
+	}
+
+	public void setCertificationHistory(String certificationHistory) {
+		this.certificationHistory = certificationHistory;
+	}
+
+	public Date getCreatedOn() {
+		return createdOn;
+	}
+
+	public void setCreatedOn(Date createdOn) {
+		this.createdOn = createdOn;
+	}
 //other setters and getters
 }
