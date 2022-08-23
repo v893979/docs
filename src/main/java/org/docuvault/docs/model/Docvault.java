@@ -14,6 +14,7 @@ public class Docvault {
     private String docId;
     private String docName;
     private String docSource;
+    private String document;
     private String certificationStatus;
     private String certificationRating;
     private String certificationHistory;
@@ -96,6 +97,14 @@ public class Docvault {
 
 	public void setCreatedOn(Date createdOn) {
 		this.createdOn = createdOn;
+	}
+	
+	public String getDocument() {
+		return document;
+	}
+
+	public void setDocument(String document) {
+		this.document = document;
 	}
 //other setters and getters
 }
